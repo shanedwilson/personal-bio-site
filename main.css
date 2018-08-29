@@ -1,0 +1,31 @@
+body {
+    background-color: bisque;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation li {
+    list-style: none;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+    border-right: solid
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
