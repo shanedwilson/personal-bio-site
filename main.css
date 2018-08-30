@@ -1,0 +1,65 @@
+body {
+    background-color: bisque;
+}
+
+.navigation, .page-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navigation li {
+    list-style: none;
+    color: black;
+    padding: 5px;
+    border-right: solid
+}
+
+.navigation a, .page-footer a {
+    text-decoration: none;
+}
+
+.navigation li:last-child {
+    border-right: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+#bioPage {
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+.bioPic {
+    width: 40%;
+    height: auto;
+    align-self: flex-start;
+}
+
+#bio {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    background-color: black;
+    padding: 5px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+  }
+
+  .page-footer {
+    margin: auto auto 0 auto;
+  }
