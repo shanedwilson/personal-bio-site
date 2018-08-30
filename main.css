@@ -1,5 +1,15 @@
 body {
     background-color: bisque;
+    margin-top: 65px;
+}
+
+.navigation {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: bisque;
+    border-bottom: black solid;
 }
 
 .navigation, .page-footer {
@@ -8,17 +18,32 @@ body {
     justify-content: space-between;
 }
 
-.navigation ul {
+.navigation ul, #technologiesPage ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-.navigation li {
+.navigation li, #tech li {
     list-style: none;
     color: black;
     padding: 5px;
     border-right: solid
+}
+
+#technologiesPage {
+    border: medium solid black;
+    margin: 5px;
+}
+#technologiesPage h2 {
+    text-align: center;
+    display: block;
+}
+
+#tech li {
+    border-right: none;
+    padding: 5px;
+    justify-content: space-between;
 }
 
 .navigation a, .page-footer a {
@@ -54,12 +79,29 @@ a:hover {
     text-align: justify;
 }
 
+.project {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.projectInfo {
+    display: column;
+}
+
 footer {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     border: solid black;
+    margin: 5px;
   }
 
-  .page-footer {
+  #footer-h3 {
+    display: block;
+    text-align: center;
+  }
+
+  .page-footer p {
     margin: auto auto 0 auto;
+    justify-content: space-around;
   }
