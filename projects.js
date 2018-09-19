@@ -35,6 +35,31 @@ const printToDom = (stringToPrint, divId) => {
   selectedDiv.innerHTML += stringToPrint;
 };
 
+const pageFunction = () => {
+  event.preventDefault();
+  let buttonId = event.target.id;
+  let fullPage = document.getElementsByClassName('fullPage');
+  let homePage = document.getElementById('homePage');
+  let bioPage = document.getElementById('bioPage');
+  let technologiesPage = document.getElementById('technologiesPage');
+  let projectsPage = document.getElementById('projectsPage');
+  let pageId = ' ';
+
+  if (buttonId === 'nav-to-bio') {
+    pageId = bioPage;   
+  } else if (buttonId === 'nav-to-technologies') {
+    pageId = technologiesPage;
+  } else if (buttonId === 'nav-to-projects') {
+    pageId = projectsPage;
+  } else {
+    pageId = homePage
+  }
+  for (let i = 0; i < fullPage.length; i++) {
+  fullPage[i].setAttribute('style', 'display:none')
+  }
+  console.log(pageId);
+  pageId.setAttribute('style', '');
+};
 let newString = '';
 
 const createProjectCards = () => {
@@ -54,6 +79,9 @@ const createProjectCards = () => {
   } 
   printToDom(newString, 'projectsPage');
 };
+
+
+document.querySelector(".navigation").addEventListener('click', pageFunction);
 
 createProjectCards();
 
