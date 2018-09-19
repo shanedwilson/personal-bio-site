@@ -35,6 +35,12 @@ const printToDom = (stringToPrint, divId) => {
   selectedDiv.innerHTML += stringToPrint;
 };
 
+const pageFunction = () => {
+  let pageId = event.target.id;
+  // page.setAttribute('class', 'power enable')
+  console.log(pageId);
+  };
+
 let newString = '';
 
 const createProjectCards = () => {
@@ -54,6 +60,9 @@ const createProjectCards = () => {
   } 
   printToDom(newString, 'projectsPage');
 };
+
+
+document.querySelector(".navigation").addEventListener('click', pageFunction);
 
 createProjectCards();
 

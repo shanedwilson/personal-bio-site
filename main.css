@@ -34,6 +34,7 @@ body {
 #technologiesPage {
     border: medium solid black;
     margin: 5px;
+    display: none;
 }
 #technologiesPage h2 {
     text-align: center;
@@ -62,6 +63,7 @@ a:hover {
     display: flex;
     flex-direction: row;
     color: white;
+    display: none;
 }
 
 .bioPic {
@@ -79,6 +81,10 @@ a:hover {
     text-align: justify;
 }
 
+#projectsPage {
+    display: none;
+}
+
 .project {
     display: flex;
     flex-direction: row;
@@ -87,6 +93,13 @@ a:hover {
 
 .projectInfo {
     display: column;
+}
+
+#footer-div {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer {
