@@ -47,7 +47,7 @@ const pageSelect = () => {
   for (let i = 0; i < fullPage.length; i++) {
     let page = fullPage[i];
     if (page.classList.contains(pageId)) {
-      page.style.display = "unset";
+      page.style.display = "";
     } else {
       page.style.display = "none";
     }
