@@ -1,9 +1,11 @@
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
   <!-- TODO: Insert a title for your page -->
   <title>SDW Personal Bio Site</title>
@@ -12,8 +14,8 @@
 <body>
   <!-- Navigation -->
   <nav class="navigation">
-  <!-- TODO: Insert some sort of H1-H6 with your name here -->  
-    <h3>Shane D Wilson</h3>    
+    <!-- TODO: Insert some sort of H1-H6 with your name here -->
+    <h3>Shane D Wilson</h3>
     <ul id="navLinks">
       <li><a id="nav-to-home">Home</a></li>
       <li><a id="nav-to-bio">Bio</a></li>
@@ -21,84 +23,69 @@
       <li><a id="nav-to-projects">Projects</a></li>
     </ul>
   </nav>
-
-  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Shane D Wilson</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" id="nav-to-home">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav-to-bio">Bio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav-to-technologies">Technologies</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" id="nav-to-projects">Projects</a>
-        </li>
-      </ul>
-    </div>
-  </nav> -->
   <!-- End Navigation -->
 
   <!-- Primary View -->
 
-  <div class="fullPage" id="homePage"> 
+  <div class="fullPage nav-to-home" id="homePage">
     <h1 id='home-title'>Shane D Wilson</h1>
-  </div>   
-
-  <div class="fullPage" id="bioPage" style="display:none">
-      <img class="bioPic" src="images/NewSDW.jpg" alt="SDW">
-      <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
-    
-      <div id="bio">
-        <header>About Me</header>
-        <p>I am Shane D. Wilson, a Grammy award winning recording and mixing engineer who, after 27 years of hard work, has reached the end of his usefulness in the world of music making.</p>
-
-        <p>  I noticed that all of the cool kids who were leaving the music business were pivoting to code.</p>
-          
-        <p>  I want to be a cool kid.</p>
-          
-        <p>I’m pursuing a new career in coding. One of the things I've always enjoyed about being a recording engineer is the daily task of troubleshooting. There's always a puzzle to be solved. It feels like coding will offer me that same challenge.</p>
-        
-        <p>I'm excited about the path ahead of me and am quite eager to learn all that I can.</p>
-      </div> 
   </div>
-  <div class="fullPage" id="technologiesPage" style="display:none">
+
+  <div class="fullPage nav-to-bio" id="bioPage">
+    <img class="bioPic" src="images/NewSDW.jpg" alt="SDW">
+    <!-- TODO: Fill in bio info here: What is your background? Why do you want to go into development? What do you love about development? -->
+
+    <div id="bio">
+      <header>About Me</header>
+      <p>I am Shane D. Wilson, a Grammy award winning recording and mixing engineer who, after 27 years of hard work,
+        has reached the end of his usefulness in the world of music making.</p>
+
+      <p> I noticed that all of the cool kids who were leaving the music business were pivoting to code.</p>
+
+      <p> I want to be a cool kid.</p>
+
+      <p>I’m pursuing a new career in coding. One of the things I've always enjoyed about being a recording engineer is
+        the daily task of troubleshooting. There's always a puzzle to be solved. It feels like coding will offer me
+        that same challenge.</p>
+
+      <p>I'm excited about the path ahead of me and am quite eager to learn all that I can.</p>
+    </div>
+  </div>
+  <div class="fullPage nav-to-technologies" id="technologiesPage">
     <!-- TODO: Start an UL of all of the tools and technologies you've started learning so far. (You'll beef this page up later). -->
     <h1>Technologies</h1>
     <ul id="tech">
       <li id='html-logo'><img src="https://www.w3.org/html/logo/downloads/HTML5_1Color_White.png" alt="HTML5 Logo"></li>
       <li id='css-logo'><img src="http://www.cutcodedown.com/images/css3Shield.png" alt="CSS Logo"></li>
-      <li id=js-logo><img src="https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1" alt="Javascript Logo"></li>
+      <li id=js-logo><img src="https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1"
+          alt="Javascript Logo"></li>
       <li id=git-logo><img src="https://www.excelisys.com/wp-content/uploads/2015/09/git.jpg" alt="Git Logo"></li>
     </ul>
   </div>
-  <div class="fullPage" id="projectsPage" style="display:none"></div>
+  <div class="fullPage nav-to-projects" id="projectsPage"></div>
   <!-- End Primary View -->
 
   <!-- Footer -->
   <div id='footer-div'>
     <footer class="page-footer">
-        <h3 id="footer-h3">Contact:</h3>
+      <h3 id="footer-h3">Contact:</h3>
       <!-- TODO: Fill in contact info here: Include things like email, LinkedIn, Twitter and GitHub links. -->
       <p>Email: <a href="mailto:me@shanedwilson.com">
-      me@shanedwilson.com</a></p>
+          me@shanedwilson.com</a></p>
       <p><a href="https://www.instagram.com/shanedwilson/">Instagram</a></p>
       <p><a href="https://github.com/shanedwilson">GitHub</a></p>
       <p><a href="https://twitter.com/shanedwilson">Twitter</a></p>
       <p><a href="https://www.linkedin.com/in/shane-d-wilson-2355a9165/">LinkedIn</a></p>
     </footer>
-</div>
+  </div>
   <!-- End Footer -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
   <script src="projects.js"></script>
 </body>
+
 </html>
