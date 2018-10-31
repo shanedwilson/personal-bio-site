@@ -1,3 +1,8 @@
+import 'bootstrap';
+
+import './index.scss';
+
+
 const projects = [
   {
     title: 'Cool Project1',
@@ -74,4 +79,4 @@ const createProjectCards = () => {
 
 document.querySelector('.navigation').addEventListener('click', pageSelect);
 
-createProjectCards();
+export default { createProjectCards };
