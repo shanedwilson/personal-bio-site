@@ -2,23 +2,11 @@ import 'bootstrap';
 import $ from 'jquery';
 import projectsData from '../data/projectsData';
 
-// const printToDom = (stringToPrint, divId) => {
-//   const selectedDiv = document.getElementById(divId);
-//   selectedDiv.innerHTML += stringToPrint;
-// };
-
-const pageSelect = (event) => {
-  event.preventDefault();
-  const pageId = event.srcElement.id;
-  const fullPage = document.getElementsByClassName('fullPage');
-  for (let i = 0; i < fullPage.length; i += 1) {
-    const page = fullPage[i];
-    if (page.classList.contains(pageId)) {
-      page.style.display = '';
-    } else {
-      page.style.display = 'none';
-    }
-  }
+const initView = () => {
+  $('#home').show();
+  $('#bio').hide();
+  $('#tech').hide();
+  $('#projects').hide();
 };
 
 const createProjectCards = (projects) => {
@@ -37,7 +25,7 @@ const createProjectCards = (projects) => {
       newString += '</div>';
     }
   });
-  $('#projectsPage').html(newString);
+  $('#projects').html(newString);
 };
 
 const getProjects = () => {
@@ -48,6 +36,4 @@ const getProjects = () => {
   });
 };
 
-document.querySelector('.navigation').addEventListener('click', pageSelect);
-
-export default { getProjects };
+export default { initView, getProjects };
