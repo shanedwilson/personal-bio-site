@@ -119,28 +119,3 @@ a:hover {
 .projectInfo {
   display: column;
 }
-
-#footer-div {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-footer {
-  display: flex;
-  flex-direction: row;
-  border: solid black;
-  margin: 5px;
-  background-color: bisque;
-}
-
-#footer-h3 {
-  display: block;
-  text-align: center;
-}
-
-.page-footer p {
-  margin: auto auto 0 auto;
-  justify-content: space-around;
-}
