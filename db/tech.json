@@ -2,31 +2,37 @@
   "tech" : [
     {
       "id" : "html",
-      "imgUrl" : "https://www.w3.org/html/logo/downloads/HTML5_1Color_White.png"
+      "name" : "HTML5",
+      "imgUrl" : "http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"
     },
 
     {
       "id" : "css",
+      "name" : "CSS",
       "imgUrl" : "http://www.cutcodedown.com/images/css3Shield.png"
     },
       
     {
       "id" : "js",
-      "imgUrl" : "https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1"
+      "name" : "JavaScript",
+      "imgUrl" : "https://www.zuaneducation.com/blog/wp-content/uploads/2017/11/learn-javascript.png"
     },
 
     {
       "id" : "git",
+      "name" : "GitHub",
       "imgUrl" : "https://www.excelisys.com/wp-content/uploads/2015/09/git.jpg"
     },
 
     {
       "id" : "jquery",
+      "name" : "jQuery",
       "imgUrl" : "http://www.smorto.com/wp-content/uploads/2015/06/badge-jquery.png"
     },
 
     {
       "id" : "bootstrap",
+      "name" : "Bootstrap 4",
       "imgUrl" : "https://www.morpht.com/sites/morpht/files/bootstrap_solid.png"
     }
   ]
