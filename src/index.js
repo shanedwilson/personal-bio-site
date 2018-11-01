@@ -1,10 +1,12 @@
 // import $ from 'jquery';
 import 'bootstrap';
 import './index.scss';
-import project from './projects';
+import projects from './javascripts/components/projects';
+import projectsData from './javascripts/data/projectsData';
 
 const initApp = () => {
-  project.createProjectCards();
+  projectsData.loadProjects();
+  projects.getProjects();
 };
 
 initApp();
