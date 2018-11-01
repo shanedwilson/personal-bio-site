@@ -1,0 +1,33 @@
+{
+  "tech" : [
+    {
+      "id" : "html",
+      "imgUrl" : "https://www.w3.org/html/logo/downloads/HTML5_1Color_White.png"
+    },
+
+    {
+      "id" : "css",
+      "imgUrl" : "http://www.cutcodedown.com/images/css3Shield.png"
+    },
+      
+    {
+      "id" : "js",
+      "imgUrl" : "https://i2.wp.com/www.nuimedia.com/wp-content/uploads/2017/01/javascript-logo.png?ssl=1"
+    },
+
+    {
+      "id" : "git",
+      "imgUrl" : "https://www.excelisys.com/wp-content/uploads/2015/09/git.jpg"
+    },
+
+    {
+      "id" : "jquery",
+      "imgUrl" : "http://www.smorto.com/wp-content/uploads/2015/06/badge-jquery.png"
+    },
+
+    {
+      "id" : "bootstrap",
+      "imgUrl" : "https://www.morpht.com/sites/morpht/files/bootstrap_solid.png"
+    }
+  ]
+}
