@@ -40,15 +40,13 @@ body:after {
   justify-content: space-between;
 }
 
-.navigation ul,
-#technologiesPage ul {
+.navigation ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
-.navigation li,
-#tech li {
+.navigation li {
   list-style: none;
   color: black;
   padding: 5px;
@@ -77,28 +75,13 @@ a:hover {
   font-size: 4em;
 }
 
-#technologiesPage #bioPage {
+#bioPage {
   margin: 5px;
   height: 90%;
   width: 100%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
-#technologiesPage h2 {
-  text-align: center;
-  display: block;
-}
-
-#tech li {
-  border-right: none;
-  padding: 5px;
-  justify-content: space-between;
-}
-
-#tech li img {
-  width: 100px;
-  height: 100px;
 }
 
 #bioPage {
@@ -121,6 +104,10 @@ a:hover {
   background-color: black;
   padding: 5px;
   text-align: justify;
+}
+
+#tech {
+  text-align: center;
 }
 
 .project {
