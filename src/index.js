@@ -7,6 +7,7 @@ import projectsData from './javascripts/data/projectsData';
 const initApp = () => {
   projectsData.loadProjects();
   projects.getProjects();
+  projects.initView();
 };
 
 initApp();

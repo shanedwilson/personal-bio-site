@@ -2,24 +2,29 @@ import 'bootstrap';
 import $ from 'jquery';
 import projectsData from '../data/projectsData';
 
-// const printToDom = (stringToPrint, divId) => {
-//   const selectedDiv = document.getElementById(divId);
-//   selectedDiv.innerHTML += stringToPrint;
+// const pageSelect = (event) => {
+//   event.preventDefault();
+//   const pageId = event.srcElement.id;
+//   const fullPage = document.getElementsByClassName('fullPage');
+//   for (let i = 0; i < fullPage.length; i += 1) {
+//     const page = fullPage[i];
+//     if (page.classList.contains(pageId)) {
+//       page.style.display = '';
+//     } else {
+//       page.style.display = 'none';
+//     }
+//   }
 // };
 
-const pageSelect = (event) => {
-  event.preventDefault();
-  const pageId = event.srcElement.id;
-  const fullPage = document.getElementsByClassName('fullPage');
-  for (let i = 0; i < fullPage.length; i += 1) {
-    const page = fullPage[i];
-    if (page.classList.contains(pageId)) {
-      page.style.display = '';
-    } else {
-      page.style.display = 'none';
-    }
-  }
+const initView = () => {
+  $('#Bio').hide();
+  $('#Technologies').hide();
+  $('#Projects').hide();
 };
+
+$('.navigation').click('click', () => {
+  console.log('clicked');
+});
 
 const createProjectCards = (projects) => {
   let newString = '';
@@ -48,6 +53,6 @@ const getProjects = () => {
   });
 };
 
-document.querySelector('.navigation').addEventListener('click', pageSelect);
+// document.querySelector('.navigation').addEventListener('click', pageSelect);
 
-export default { getProjects };
+export default { initView, getProjects };
