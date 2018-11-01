@@ -4,7 +4,7 @@ const loadProjects = () => {
   const projectsPromise = new Promise((resolve, reject) => {
     $.get('http://localhost:3003/projects')
       .done((data) => {
-        console.log(data);
+        resolve(data);
       })
       .fail((error) => {
         reject(error);

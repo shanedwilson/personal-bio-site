@@ -1,6 +1,6 @@
 import 'bootstrap';
-
-// const newString = '';
+import $ from 'jquery';
+import projectsData from '../data/projectsData';
 
 // const printToDom = (stringToPrint, divId) => {
 //   const selectedDiv = document.getElementById(divId);
@@ -21,24 +21,33 @@ const pageSelect = (event) => {
   }
 };
 
-// const createProjectCards = () => {
-//   for (let i = 0; i < projects.length; i += 1) {
-//     if (projects[i].available === true) {
-//       newString += '<div class=\'project\'>';
-//       newString += `<img src=${projects[i].screenshot}></img>`;
-//       newString += '<div class=\'projectInfo\'';
-//       newString += `<h4>${projects[i].title}:</h4>`;
-//       newString += `<p>${projects[i].description}</p>`;
-//       newString += `<p>Technologies Used: ${projects[i].technologiesUsed}</p>`;
-//       newString += `<p><a href='${projects[i].url}'>Project Url</a></p>`;
-//       newString += `<p><a href='${projects[i].githubUrl}'>GitHub Url</a></p>`;
-//       newString += '</div>';
-//       newString += '</div>';
-//     }
-//   }
-//   printToDom(newString, 'projectsPage');
-// };
+const createProjectCards = (projects) => {
+  let newString = '';
+  projects.forEach((project) => {
+    if (project.available === true) {
+      newString += '<div class=\'project\'>';
+      newString += `<img src=${project.screenshot}></img>`;
+      newString += '<div class=\'projectInfo\'';
+      newString += `<h4>${project.title}:</h4>`;
+      newString += `<p>${project.description}</p>`;
+      newString += `<p>Technologies Used: ${projects.technologiesUsed}</p>`;
+      newString += `<p><a href='${projects.url}'>Project Url</a></p>`;
+      newString += `<p><a href='${projects.githubUrl}'>GitHub Url</a></p>`;
+      newString += '</div>';
+      newString += '</div>';
+    }
+  });
+  $('#projectsPage').html(newString);
+};
+
+const getProjects = () => {
+  projectsData.loadProjects().then((projects) => {
+    createProjectCards(projects);
+  }).catch((error) => {
+    console.error(error);
+  });
+};
 
 document.querySelector('.navigation').addEventListener('click', pageSelect);
 
-// export default { createProjectCards };
+export default { getProjects };
