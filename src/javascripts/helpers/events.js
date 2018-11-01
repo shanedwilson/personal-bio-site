@@ -12,15 +12,24 @@ const homeBtnEvent = () => {
     $('#bio').hide();
     $('#tech').hide();
     $('#projects').hide();
+    $(homeBtn).addClass('active');
+    $(bioBtn).removeClass('active');
+    $(techBtn).removeClass('active');
+    $(projBtn).removeClass('active');
   });
 };
 
 const bioBtnEvent = () => {
   bioBtn.on('click', () => {
+    $('.navbar-nav').removeClass('active');
     $('#home').hide();
     $('#bio').show();
     $('#tech').hide();
     $('#projects').hide();
+    $(homeBtn).removeClass('active');
+    $(bioBtn).addClass('active');
+    $(techBtn).removeClass('active');
+    $(projBtn).removeClass('active');
   });
 };
 
@@ -30,6 +39,10 @@ const techBtnEvent = () => {
     $('#bio').hide();
     $('#tech').show();
     $('#projects').hide();
+    $(homeBtn).removeClass('active');
+    $(bioBtn).removeClass('active');
+    $(techBtn).addClass('active');
+    $(projBtn).removeClass('active');
   });
 };
 
@@ -39,7 +52,10 @@ const projBtnEvent = () => {
     $('#bio').hide();
     $('#tech').hide();
     $('#projects').show();
-    console.log('projects');
+    $(homeBtn).removeClass('active');
+    $(bioBtn).removeClass('active');
+    $(techBtn).removeClass('active');
+    $(projBtn).addClass('active');
   });
 };
 
