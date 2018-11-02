@@ -9,31 +9,31 @@
     {
       "id" : "css",
       "name" : "CSS",
-      "imgUrl" : "http://www.cutcodedown.com/images/css3Shield.png"
+      "imgUrl" : "http://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png"
     },
       
     {
       "id" : "js",
       "name" : "JavaScript",
-      "imgUrl" : "https://www.zuaneducation.com/blog/wp-content/uploads/2017/11/learn-javascript.png"
+      "imgUrl" : "https://searchlite.nl/wp-content/uploads/2016/08/JavaScript.png"
     },
 
     {
       "id" : "git",
       "name" : "GitHub",
-      "imgUrl" : "https://www.excelisys.com/wp-content/uploads/2015/09/git.jpg"
+      "imgUrl" : "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_color-512.png"
     },
 
     {
       "id" : "jquery",
       "name" : "jQuery",
-      "imgUrl" : "http://www.smorto.com/wp-content/uploads/2015/06/badge-jquery.png"
+      "imgUrl" : "https://vignette.wikia.nocookie.net/khanacademy/images/4/45/Jquery_mastery_badge-512x512.png"
     },
 
     {
       "id" : "bootstrap",
       "name" : "Bootstrap 4",
-      "imgUrl" : "https://www.morpht.com/sites/morpht/files/bootstrap_solid.png"
+      "imgUrl" : "https://developersinstitute.com/wp-content/uploads/2017/05/icon-bootstrap.png"
     }
   ]
 }

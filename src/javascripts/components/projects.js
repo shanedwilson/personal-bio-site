@@ -18,9 +18,9 @@ const createProjectCards = (projects) => {
       newString += '<div class=\'projectInfo\'';
       newString += `<h4>${project.title}:</h4>`;
       newString += `<p>${project.description}</p>`;
-      newString += `<p>Technologies Used: ${projects.technologiesUsed}</p>`;
-      newString += `<p><a href='${projects.url}'>Project Url</a></p>`;
-      newString += `<p><a href='${projects.githubUrl}'>GitHub Url</a></p>`;
+      newString += `<p>Technologies Used: ${project.technologiesUsed}</p>`;
+      newString += `<p><a href='${project.url}'>Project Url</a></p>`;
+      newString += `<p><a href='${project.githubUrl}'>GitHub Url</a></p>`;
       newString += '</div>';
       newString += '</div>';
     }
