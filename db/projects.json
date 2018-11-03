@@ -1,6 +1,7 @@
 {
   "projects": [
     {
+      "id" : "project1",
       "title": "Cool Project1",
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
@@ -11,6 +12,7 @@
     },
 
     {
+      "id" : "project2",
       "title": "Cool Project2",
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
@@ -21,6 +23,7 @@
     },
 
     {
+      "id" : "project2",
       "title": "Cool Project3",
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
