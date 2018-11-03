@@ -2,7 +2,10 @@ import 'bootstrap';
 import $ from 'jquery';
 import techData from '../data/techData';
 
+console.log('tech.js');
+
 const createTechCards = (tech) => {
+  console.log(tech);
   let newString = '';
   tech.forEach((technology) => {
     newString += `
@@ -17,12 +20,22 @@ const createTechCards = (tech) => {
   });
 };
 
+// const getTech = () => {
+//   techData.loadTech().then((tech) => {
+//     createTechCards(tech.data);
+//   }).catch((error) => {
+//     console.error(error);
+//   });
+// };
+
 const getTech = () => {
-  techData.loadTech().then((tech) => {
-    createTechCards(tech);
-  }).catch((error) => {
-    console.error(error);
-  });
+  techData.loadTech()
+    .then((techs) => {
+      createTechCards(techs.data);
+    })
+    .catch((error) => {
+      console.error({ error });
+    });
 };
 
 export default { getTech };

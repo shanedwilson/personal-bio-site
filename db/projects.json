@@ -2,7 +2,7 @@
   "projects": [
     {
       "title": "Cool Project1",
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,
@@ -12,7 +12,7 @@
 
     {
       "title": "Cool Project2",
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": false,
@@ -22,7 +22,7 @@
 
     {
       "title": "Cool Project3",
-      "screenshot": "http://gotoflashgames.com/files/file/033.jpg",
+      "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
       "available": true,

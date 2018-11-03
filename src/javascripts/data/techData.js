@@ -1,16 +1,5 @@
-import $ from 'jquery';
+import axios from 'axios';
 
-const loadTech = () => {
-  const techPromise = new Promise((resolve, reject) => {
-    $.get('http://localhost:3004/tech')
-      .done((data) => {
-        resolve(data);
-      })
-      .fail((error) => {
-        reject(error);
-      });
-  });
-  return techPromise;
-};
+const loadTech = () => axios.get('http://localhost:3004/tech');
 
 export default { loadTech };
