@@ -28,12 +28,14 @@ const createProjectCards = (projects) => {
   $('#projects').html(newString);
 };
 
-projectsData.loadProjects()
-  .then((projects) => {
-    createProjectCards(projects.data);
-  })
-  .catch((error) => {
-    console.error({ error });
-  });
+const getProjects = () => {
+  projectsData.loadProjects()
+    .then((projects) => {
+      createProjectCards(projects.data);
+    })
+    .catch((error) => {
+      console.error({ error });
+    });
+};
 
-export default { initView };
+export default { initView, getProjects };
