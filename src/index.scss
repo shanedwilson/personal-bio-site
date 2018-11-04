@@ -20,7 +20,7 @@ body {
 }
 
 #project-container {
-  width: 75%;
+  width: 85%;
   margin:0 auto;
 }
 
@@ -29,10 +29,27 @@ body {
 }
 
 #tech-header {
-  color: lightyellow;
+  color: rgba(242, 211, 175, 1);
   text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
+
+#test-div {
+  width: 50%;
+  margin:0 auto;
+}
+
+.project, .technology, .jumbotron {
+  background-color: rgba(253, 248, 243, 1);
+}
+
+$color1: rgba(242, 211, 175, 1);
+$color2: rgba(129, 193, 75, 1);
+$color3: rgba(46, 147, 60, 1);
+$color4: rgba(41, 112, 69, 1);
+$color5: rgba(32, 78, 74, 1);
+$color6: rgba(249, 236, 220, 1);
+$color7: rgba(253, 248, 243, 1);
