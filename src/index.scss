@@ -1,5 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
-#main-container {
+body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -19,47 +19,20 @@
   margin-top: 10%;
 }
 
-#bioPage {
-  margin: 5px;
-  height: 90%;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#bioPage {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  width: 100%;
-}
-
-.bioPic {
-  width: 40%;
-  height: auto;
-  align-self: flex-start;
-}
-
-#bio {
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 10px;
-  background-color: black;
-  padding: 5px;
-  text-align: justify;
+#project-container {
+  width: 75%;
+  margin:0 auto;
 }
 
 #tech {
   text-align: center;
 }
 
-.project {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
-}
-
-.projectInfo {
-  display: column;
+#tech-header {
+  color: lightyellow;
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
