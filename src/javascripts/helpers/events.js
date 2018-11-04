@@ -8,10 +8,10 @@ const projBtn = $('#nav-to-projects');
 
 const homeBtnEvent = () => {
   homeBtn.on('click', () => {
-    $('#home').show();
-    $('#bio').hide();
-    $('#tech').hide();
-    $('#projects').hide();
+    $('#home').fadeIn(250);
+    $('#bio').fadeOut(250);
+    $('#tech').fadeOut(250);
+    $('#projects').fadeOut(250);
     $(homeBtn).addClass('active');
     $(bioBtn).removeClass('active');
     $(techBtn).removeClass('active');
@@ -22,10 +22,10 @@ const homeBtnEvent = () => {
 const bioBtnEvent = () => {
   bioBtn.on('click', () => {
     $('.navbar-nav').removeClass('active');
-    $('#home').hide();
-    $('#bio').show();
-    $('#tech').hide();
-    $('#projects').hide();
+    $('#home').fadeOut(250);
+    $('#bio').fadeIn(250);
+    $('#tech').fadeOut(250);
+    $('#projects').fadeOut(250);
     $(homeBtn).removeClass('active');
     $(bioBtn).addClass('active');
     $(techBtn).removeClass('active');
@@ -35,10 +35,10 @@ const bioBtnEvent = () => {
 
 const techBtnEvent = () => {
   techBtn.on('click', () => {
-    $('#home').hide();
-    $('#bio').hide();
-    $('#tech').show();
-    $('#projects').hide();
+    $('#home').fadeOut(250);
+    $('#bio').fadeOut(250);
+    $('#tech').fadeIn(250);
+    $('#projects').fadeOut(250);
     $(homeBtn).removeClass('active');
     $(bioBtn).removeClass('active');
     $(techBtn).addClass('active');
@@ -48,10 +48,10 @@ const techBtnEvent = () => {
 
 const projBtnEvent = () => {
   projBtn.on('click', () => {
-    $('#home').hide();
-    $('#bio').hide();
-    $('#tech').hide();
-    $('#projects').show();
+    $('#home').fadeOut(250);
+    $('#bio').fadeOut(250);
+    $('#tech').fadeOut(250);
+    $('#projects').fadeIn(250);
     $(homeBtn).removeClass('active');
     $(bioBtn).removeClass('active');
     $(techBtn).removeClass('active');
