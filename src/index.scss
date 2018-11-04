@@ -1,5 +1,4 @@
 @import '~bootstrap/scss/bootstrap';
-
 body {
   display: flex;
   flex-direction: column;
@@ -8,114 +7,49 @@ body {
   background-size: cover;
   background-color: bisque;
   margin-top: 65px;
-}
-
-body:after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0.7;
-  z-index: -1;
-  // background-image: url("../images/St. Izzy Long Shot.jpg");
+  background:  linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+                url('https://c1.staticflickr.com/9/8469/8412862833_35a92407c4_b.jpg');
+  background-attachment: fixed;
   background-size: cover;
-  margin: 0;
 }
 
-.navigation {
-  overflow: hidden;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: bisque;
-  border-bottom: black solid;
+#tron-container {
+  width: 75%;
+  margin:0 auto;
+  margin-top: 10%;
 }
 
-.navigation,
-.page-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.navigation ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.navigation li {
-  list-style: none;
-  color: black;
-  padding: 5px;
-  border-right: solid;
-}
-
-.navigation a,
-.page-footer a {
-  text-decoration: none;
-}
-
-.navigation li:last-child {
-  border-right: none;
-}
-
-a:hover {
-  color: pink;
-}
-
-#home-title {
-  height: 90%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 4em;
-}
-
-#bioPage {
-  margin: 5px;
-  height: 90%;
-  width: 100%;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#bioPage {
-  display: flex;
-  flex-direction: row;
-  color: white;
-  width: 100%;
-}
-
-.bioPic {
-  width: 40%;
-  height: auto;
-  align-self: flex-start;
-}
-
-#bio {
-  flex-direction: column;
-  flex-wrap: wrap;
-  margin-left: 10px;
-  background-color: black;
-  padding: 5px;
-  text-align: justify;
+#project-container {
+  width: 85%;
+  margin:0 auto;
 }
 
 #tech {
   text-align: center;
 }
 
-.project {
-  display: flex;
-  flex-direction: row;
-  margin: 20px;
+#tech-header {
+  color: rgba(242, 211, 175, 1);
+  text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 
-.projectInfo {
-  display: column;
+#test-div {
+  width: 50%;
+  margin:0 auto;
 }
+
+.project, .technology, .jumbotron {
+  background-color: rgba(253, 248, 243, 1);
+}
+
+$color1: rgba(242, 211, 175, 1);
+$color2: rgba(129, 193, 75, 1);
+$color3: rgba(46, 147, 60, 1);
+$color4: rgba(41, 112, 69, 1);
+$color5: rgba(32, 78, 74, 1);
+$color6: rgba(249, 236, 220, 1);
+$color7: rgba(253, 248, 243, 1);
