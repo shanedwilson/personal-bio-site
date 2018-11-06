@@ -5,6 +5,20 @@ const homeBtn = $('#nav-to-home');
 const bioBtn = $('#nav-to-bio');
 const techBtn = $('#nav-to-tech');
 const projBtn = $('#nav-to-projects');
+const logoBtn = $('#logo');
+
+const logoBtnEvent = () => {
+  logoBtn.on('click', () => {
+    $('#home').fadeIn(250);
+    $('#bio').fadeOut(250);
+    $('#tech').fadeOut(250);
+    $('#projects').fadeOut(250);
+    $(homeBtn).addClass('active');
+    $(bioBtn).removeClass('active');
+    $(techBtn).removeClass('active');
+    $(projBtn).removeClass('active');
+  });
+};
 
 const homeBtnEvent = () => {
   homeBtn.on('click', () => {
@@ -64,6 +78,7 @@ const setEvents = () => {
   bioBtnEvent();
   techBtnEvent();
   projBtnEvent();
+  logoBtnEvent();
 };
 
 export default { setEvents };

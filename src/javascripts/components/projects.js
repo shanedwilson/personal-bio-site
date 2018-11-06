@@ -53,6 +53,7 @@ const getProjects = () => {
   projectsData.loadProjects()
     .then((projects) => {
       createProjectCards(projects.data);
+      console.log(projects.data);
     })
     .catch((error) => {
       console.error({ error });
