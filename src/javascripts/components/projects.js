@@ -14,7 +14,7 @@ const createProjectCards = (projects) => {
   projects.forEach((project) => {
     if (project.available === true) {
       newString += `
-      <div class="project card flex-row flex-wrap mt-3" id="${project.id}">
+      <div class="project card flex-row flex-wrap mb-4" id="${project.id}">
         <div class="card-header border-0">
           <img class="card-img-top img-thumbnail img-fluid" src="${project.screenshot}" alt="${project.title}">
         </div>
