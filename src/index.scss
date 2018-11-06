@@ -1,4 +1,5 @@
 @import '~bootstrap/scss/bootstrap';
+
 body {
   display: flex;
   flex-direction: column;
@@ -47,18 +48,9 @@ body {
 		1px 1px 0 #000;
 }
 
-#test-div {
-  width: 50%;
-  margin:0 auto;
-}
-
 .project, .technology, .jumbotron {
   background-color: rgba(253, 248, 243, 1);
 }
-
-// .footer-container {
-//   border: solid pink;
-// }
 
 $color1: rgba(242, 211, 175, 1);
 $color2: rgba(129, 193, 75, 1);
