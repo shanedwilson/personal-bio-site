@@ -34,6 +34,12 @@
       "id" : "bootstrap",
       "name" : "Bootstrap 4",
       "imgUrl" : "https://developersinstitute.com/wp-content/uploads/2017/05/icon-bootstrap.png"
+    },
+
+     {
+      "id" : "sass",
+      "name" : "Sass",
+      "imgUrl" : "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
     }
   ]
 }
