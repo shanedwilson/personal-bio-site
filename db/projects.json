@@ -2,28 +2,28 @@
   "projects": [
     {
       "id" : "project1",
-      "title": "Cool Project1",
-      "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
+      "title": "Shotz!",
+      "screenshot": "https://github.com/shanedwilson/shotz/raw/master/img/movie-view.png",
+      "description": "For this project, we created a program to keep track of shooting locations for movies. A search element is provided to search for locations and buttons are provided to filter by shoot time. Click on the movie card to see all locations associated with that movie.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Boostrap 4",
       "available": true,
-      "url": "https://github.com/shanedwilson",
+      "url": "https://github.com/shanedwilson/shotz",
       "githubUrl": "https://github.com/shanedwilson"
     },
 
     {
       "id" : "project2",
-      "title": "Cool Project2",
+      "title": "Sandwich Maker",
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
-      "description": "This is the best project",
-      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": false,
-      "url": "https://github.com/shanedwilson",
+      "description": "This project is a simple sandwich maker providing ingredient cards and a final product card with the total amount due.",
+      "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Bootstrap 4",
+      "available": true,
+      "url": "https://github.com/shanedwilson/sandwich-maker",
       "githubUrl": "https://github.com/shanedwilson"
     },
 
     {
-      "id" : "project2",
+      "id" : "project3",
       "title": "Cool Project3",
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",

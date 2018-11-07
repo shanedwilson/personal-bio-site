@@ -19,14 +19,14 @@ const createProjectCards = (projects) => {
           <img class="card-img-top img-thumbnail img-fluid" src="${project.screenshot}" alt="${project.title}">
         </div>
         <div class="card-block px-2">
-          <h4 class="card-title text-center">${project.title}:</h4>
+          <h4 class="card-title text-center">${project.title}</h4>
           <p class="card-text">${project.description}</p>
           <p class="card-text">Technologies Used: ${project.technologiesUsed}</p>
         </div> 
         <div class="w-100"></div> 
         <div class="card-footer w-100 text-muted row d-flex justify-content-around">
-            <p class="text-center"><a href='${project.url}' class="card-link">Project Url</a></p>
-            <p class="text-center"><a href='${project.githubUrl}' class="card-link">GitHub Url</a></p>
+            <p class="text-center"><a href='${project.url}' target="_blank" class="card-link">Project Url</a></p>
+            <p class="text-center"><a href='${project.githubUrl}' target="_blank" class="card-link">GitHub Url</a></p>
         </div>  
       </div>`;
     }
