@@ -14,7 +14,7 @@
     {
       "id" : "project2",
       "title": "Sandwich Maker",
-      "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
+      "screenshot": "https://github.com/shanedwilson/sandwich-maker/blob/master/img/main-shot.png?raw=true",
       "description": "This project is a simple sandwich maker providing ingredient cards and a final product card with the total amount due.",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Bootstrap 4",
       "available": true,
@@ -28,7 +28,7 @@
       "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
       "description": "This is the best project",
       "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-      "available": true,
+      "available": false,
       "url": "https://github.com/shanedwilson",
       "githubUrl": "https://github.com/shanedwilson"
     }
