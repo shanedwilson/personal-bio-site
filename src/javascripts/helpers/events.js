@@ -16,6 +16,7 @@ const homeBtnEvent = () => {
 
 const bioBtnEvent = () => {
   $('#nav-div').on('click', '#nav-to-bio', () => {
+    $(window).scrollTop(0);
     $('.navbar-nav').removeClass('active');
     $('#home').fadeOut(250);
     $('#bio').fadeIn(250);
@@ -30,6 +31,7 @@ const bioBtnEvent = () => {
 
 const techBtnEvent = () => {
   $('#nav-div').on('click', '#nav-to-tech', () => {
+    $(window).scrollTop(0);
     $('#home').fadeOut(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeIn(250);
@@ -43,6 +45,7 @@ const techBtnEvent = () => {
 
 const projBtnEvent = () => {
   $('#nav-div').on('click', '#nav-to-projects', () => {
+    $(window).scrollTop(0);
     $('#home').fadeOut(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeOut(250);
@@ -59,7 +62,6 @@ const setEvents = () => {
   bioBtnEvent();
   techBtnEvent();
   projBtnEvent();
-  logoBtnEvent();
 };
 
 export default { setEvents };
