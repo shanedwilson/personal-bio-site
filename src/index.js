@@ -11,6 +11,7 @@ import navbar from './javascripts/components/navbar';
 import projects from './javascripts/components/projects';
 import tech from './javascripts/components/tech';
 import events from './javascripts/helpers/events';
+import footer from './javascripts/components/footer';
 
 $('#bio-pic').attr('src', sdwPhoto);
 
@@ -22,6 +23,7 @@ const initApp = () => {
   projects.getProjects();
   tech.getTech();
   events.setEvents();
+  footer.createFooter();
 };
 
 initApp();
