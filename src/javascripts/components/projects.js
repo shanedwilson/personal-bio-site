@@ -36,8 +36,8 @@ const createProjectCards = (projects) => {
 const getProjects = () => {
   projectsData.loadProjects()
     .then((projects) => {
-      createProjectCards(projects.data);
-      console.log(projects.data);
+      createProjectCards(projects);
+      console.log(projects);
     })
     .catch((error) => {
       console.error({ error });
