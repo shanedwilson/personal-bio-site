@@ -13,8 +13,8 @@ const createNavbar = () => {
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" id="nav-to-home">Home<span class="sr-only">(current)</span></a>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-to-home">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" id="nav-to-bio">Bio</a>
@@ -31,6 +31,7 @@ const createNavbar = () => {
   </nav>  
   `;
   $('#nav-div').html(newString);
+  $('#nav-to-home').addClass('active');
 };
 
 export default { createNavbar };
