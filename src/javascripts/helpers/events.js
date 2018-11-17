@@ -5,10 +5,10 @@ const homeBtn = $('#nav-to-home');
 const bioBtn = $('#nav-to-bio');
 const techBtn = $('#nav-to-tech');
 const projBtn = $('#nav-to-projects');
-const logoBtn = $('#logo');
+// const logoBtn = $('#logo');
 
 const logoBtnEvent = () => {
-  logoBtn.on('click', () => {
+  $('#nav-div').on('click', '#logo', () => {
     $('#home').fadeIn(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeOut(250);
@@ -21,7 +21,7 @@ const logoBtnEvent = () => {
 };
 
 const homeBtnEvent = () => {
-  homeBtn.on('click', () => {
+  $('#nav-div').on('click', '#nav-to-home', () => {
     $('#home').fadeIn(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeOut(250);
@@ -34,7 +34,7 @@ const homeBtnEvent = () => {
 };
 
 const bioBtnEvent = () => {
-  bioBtn.on('click', () => {
+  $('#nav-div').on('click', '#nav-to-bio', () => {
     $('.navbar-nav').removeClass('active');
     $('#home').fadeOut(250);
     $('#bio').fadeIn(250);
@@ -48,7 +48,7 @@ const bioBtnEvent = () => {
 };
 
 const techBtnEvent = () => {
-  techBtn.on('click', () => {
+  $('#nav-div').on('click', '#nav-to-tech', () => {
     $('#home').fadeOut(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeIn(250);
@@ -61,7 +61,7 @@ const techBtnEvent = () => {
 };
 
 const projBtnEvent = () => {
-  projBtn.on('click', () => {
+  $('#nav-div').on('click', '#nav-to-projects', () => {
     $('#home').fadeOut(250);
     $('#bio').fadeOut(250);
     $('#tech').fadeOut(250);
