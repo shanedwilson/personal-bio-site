@@ -3,14 +3,14 @@ import $ from 'jquery';
 import techData from '../data/techData';
 
 
-const createTechCards = (tech) => {
+const createTechCards = (techs) => {
   let newString = '';
-  tech.forEach((technology) => {
+  techs.forEach((tech) => {
     newString += `
-      <div class="technology card col-sm-3 px-0 m-3" id="${technology.id}">
-        <img class="card-img-top" src="${technology.imgUrl}" alt="${technology.name}">
+      <div class="technology card col-sm-3 px-0 m-3" id="${tech.id}">
+        <img class="card-img-top" src="${tech.imgUrl}" alt="${tech.name}">
         <div class="card-footer text-muted mt-auto">
-          <h5 class="card-title text-center ">${technology.name}</h5>
+          <h5 class="card-title text-center ">${tech.name}</h5>
         </div>
       </div>
     `;
@@ -21,7 +21,7 @@ const createTechCards = (tech) => {
 const getTech = () => {
   techData.loadTech()
     .then((techs) => {
-      createTechCards(techs.data);
+      createTechCards(techs);
     })
     .catch((error) => {
       console.error({ error });

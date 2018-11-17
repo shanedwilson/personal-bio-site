@@ -20,7 +20,7 @@ const createProjectCards = (projects) => {
         </div>
         <div class="card-block">
           <h4 class="card-title text-center">${project.title}</h4>
-          <p class="card-text text-center">${project.description}</p>
+          <p class="card-text text-center m-3">${project.description}</p>
           <p class="card-text text-center">Technologies Used: ${project.technologiesUsed}</p>
         </div> 
         <div class="card-footer w-100 text-muted row d-flex justify-content-around">
@@ -36,8 +36,7 @@ const createProjectCards = (projects) => {
 const getProjects = () => {
   projectsData.loadProjects()
     .then((projects) => {
-      createProjectCards(projects.data);
-      console.log(projects.data);
+      createProjectCards(projects);
     })
     .catch((error) => {
       console.error({ error });

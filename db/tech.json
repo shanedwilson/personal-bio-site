@@ -1,45 +1,36 @@
 {
-  "tech" : [
-    {
-      "id" : "html",
-      "name" : "HTML5",
-      "imgUrl" : "http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"
-    },
+  "tech1" : {
+    "name" : "HTML5",
+    "imgUrl" : "http://icons.iconarchive.com/icons/cornmanthe3rd/plex/256/Other-html-5-icon.png"
+  },
 
-    {
-      "id" : "css",
-      "name" : "CSS",
-      "imgUrl" : "http://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png"
-    },
-      
-    {
-      "id" : "js",
-      "name" : "JavaScript",
-      "imgUrl" : "https://searchlite.nl/wp-content/uploads/2016/08/JavaScript.png"
-    },
+    "tech2" : {
+    "name" : "CSS",
+    "imgUrl" : "http://icons.iconarchive.com/icons/martz90/hex/256/css-3-icon.png"
+  },
+    
+  "tech3" : {
+    "name" : "JavaScript",
+    "imgUrl" : "https://searchlite.nl/wp-content/uploads/2016/08/JavaScript.png"
+  },
 
-    {
-      "id" : "git",
-      "name" : "GitHub",
-      "imgUrl" : "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_color-512.png"
-    },
+  "tech4" : {
+    "name" : "GitHub",
+    "imgUrl" : "https://cdn3.iconfinder.com/data/icons/free-social-icons/67/github_circle_color-512.png"
+  },
 
-    {
-      "id" : "jquery",
-      "name" : "jQuery",
-      "imgUrl" : "https://vignette.wikia.nocookie.net/khanacademy/images/4/45/Jquery_mastery_badge-512x512.png"
-    },
+  "tech5" : {
+    "name" : "jQuery",
+    "imgUrl" : "https://vignette.wikia.nocookie.net/khanacademy/images/4/45/Jquery_mastery_badge-512x512.png"
+  },
 
-    {
-      "id" : "bootstrap",
-      "name" : "Bootstrap 4",
-      "imgUrl" : "https://developersinstitute.com/wp-content/uploads/2017/05/icon-bootstrap.png"
-    },
+  "tech6" : {
+    "name" : "Bootstrap 4",
+    "imgUrl" : "https://developersinstitute.com/wp-content/uploads/2017/05/icon-bootstrap.png"
+  },
 
-     {
-      "id" : "sass",
-      "name" : "Sass",
-      "imgUrl" : "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
-    }
-  ]
+  "tech7" : {
+    "name" : "Sass",
+    "imgUrl" : "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+  }
 }
