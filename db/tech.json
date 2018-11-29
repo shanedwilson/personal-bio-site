@@ -32,5 +32,10 @@
   "tech7" : {
     "name" : "Sass",
     "imgUrl" : "https://sass-lang.com/assets/img/styleguide/seal-color-aef0354c.png"
+  },
+
+  "tech8" : {
+    "name" : "Firebase",
+    "imgUrl" : "https://www.outsystems.com/Forums_CW/_image.aspx/A28atdGCIn2i_ZW11S_0KWgJm3iqRyHU-2w=/firebase"
   }
 }
