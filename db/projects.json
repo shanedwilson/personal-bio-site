@@ -27,5 +27,15 @@
     "available": false,
     "url": "https://github.com/shanedwilson",
     "githubUrl": "https://github.com/shanedwilson"
+  },
+
+  "project4" : {
+    "title": "Todo App",
+    "screenshot": "https://github.com/shanedwilson/firebase-todo/raw/master/img/main.png",
+    "description": "For this project we needed to create an app to display tasks needing to be done. The tasks should be editable. Completed tasks should move to the completed task div.",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, jQuery, Version Control with Github, Firbase, Webpack",
+    "available": true,
+    "url": "https://github.com/shanedwilson/firebase-todo",
+    "githubUrl": "https://github.com/shanedwilson"
   }
 }
