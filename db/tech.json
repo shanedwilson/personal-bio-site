@@ -37,5 +37,10 @@
   "tech8" : {
     "name" : "Firebase",
     "imgUrl" : "https://www.outsystems.com/Forums_CW/_image.aspx/A28atdGCIn2i_ZW11S_0KWgJm3iqRyHU-2w=/firebase"
+  },
+
+  "tech9" : {
+    "name" : "React",
+    "imgUrl" : "https://s3-us-west-2.amazonaws.com/wecp-static/www/prod/images/AssessmentForLearning/icon-reactjs.svg"
   }
 }

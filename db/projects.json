@@ -1,41 +1,41 @@
 {
   "project1" : {
-    "title": "Shotz!",
-    "screenshot": "https://github.com/shanedwilson/shotz/raw/master/img/movie-view.png",
-    "description": "For this project, we created a program to keep track of shooting locations for movies. A search element is provided to search for locations and buttons are provided to filter by shoot time. Click on the movie card to see all locations associated with that movie.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Boostrap 4",
+    "title": "Developer++",
+    "screenshot": "https://github.com/shanedwilson/developer-plus-plus/raw/master/images/developer-plus-plus-main.png",
+    "description": "This app is the first assignment given to us to complete in React. It includes a GitHub Calling Card and the ability to store and delete our developing resources. We also have the ability to mark the resources as completed. A stretch goal was to use Rechart to graph our GitHub commits and our completed resources. Much thanks to my friend and collegue, Marco Crank, for leading the way on finding the charting path.å",
+    "technologiesUsed": "React, CRUD, Firebase",
     "available": true,
-    "url": "https://github.com/shanedwilson/shotz",
-    "githubUrl": "https://github.com/shanedwilson"
+    "url": "https://developer-plus-plus.firebaseapp.com/",
+    "githubUrl": "https://github.com/shanedwilson/developer-plus-plus"
   },
 
-  "project2" : {
-    "title": "Sandwich Maker",
-    "screenshot": "https://github.com/shanedwilson/sandwich-maker/blob/master/img/main-shot.png?raw=true",
-    "description": "This project is a simple sandwich maker providing ingredient cards and a final product card with the total amount due.",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, Bootstrap 4",
+    "project2" : {
+    "title": "Nutshell-Chufus",
+    "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-chufas/raw/master/screenshots/nutshell.png",
+    "description": "This represents the work of a group project for NSS. It was the culmination of everything we had learned just before we started React. I was responsible for the weather component.",
+    "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, Version Control with Github, Bootstrap 4, jQuery, Axios, Firebase, CRUD, Webpack",
     "available": true,
-    "url": "https://github.com/shanedwilson/sandwich-maker",
-    "githubUrl": "https://github.com/shanedwilson"
+    "url": "https://nutshell-chufas.firebaseapp.com/",
+    "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-chufas"
   },
 
   "project3" : {
-    "title": "Cool Project3",
-    "screenshot": "https://www.dogbreedinfo.com/images29/ToxirnCairnTerrierChihuahuaHybridDogsMissBeanaBlackAndWhite1.JPG",
-    "description": "This is the best project",
-    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github",
-    "available": false,
-    "url": "https://github.com/shanedwilson",
-    "githubUrl": "https://github.com/shanedwilson"
-  },
-
-  "project4" : {
     "title": "Todo App",
     "screenshot": "https://github.com/shanedwilson/firebase-todo/raw/master/img/main.png",
     "description": "For this project we needed to create an app to display tasks needing to be done. The tasks should be editable. Completed tasks should move to the completed task div.",
     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, jQuery, Version Control with Github, Firbase, Webpack",
     "available": true,
-    "url": "https://github.com/shanedwilson/firebase-todo",
+    "url": "https://fir-todo-c124b.firebaseapp.com/",
+    "githubUrl": "https://github.com/shanedwilson/firebase-todo"
+  },
+
+  "project4" : {
+    "title": "Shotz!",
+    "screenshot": "https://github.com/shanedwilson/shotz/raw/master/img/movie-view.png",
+    "description": "For this project, we created a program to keep track of shooting locations for movies. A search element is provided to search for locations and buttons are provided to filter by shoot time. Click on the movie card to see all locations associated with that movie.",
+    "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Boostrap 4",
+    "available": false,
+    "url": "https://github.com/shanedwilson/shotz",
     "githubUrl": "https://github.com/shanedwilson"
   }
 }
