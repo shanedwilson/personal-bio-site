@@ -25,8 +25,8 @@
     "description": "For this project we needed to create an app to display tasks needing to be done. The tasks should be editable. Completed tasks should move to the completed task div.",
     "technologiesUsed": "HTML, SCSS, Vanilla JavaScript, jQuery, Version Control with Github, Firbase, Webpack",
     "available": true,
-    "url": "https://github.com/shanedwilson/firebase-todo",
-    "githubUrl": "https://github.com/shanedwilson"
+    "url": "https://fir-todo-c124b.firebaseapp.com/",
+    "githubUrl": "https://github.com/shanedwilson/firebase-todo"
   },
 
   "project4" : {
@@ -34,7 +34,7 @@
     "screenshot": "https://github.com/shanedwilson/shotz/raw/master/img/movie-view.png",
     "description": "For this project, we created a program to keep track of shooting locations for movies. A search element is provided to search for locations and buttons are provided to filter by shoot time. Click on the movie card to see all locations associated with that movie.",
     "technologiesUsed": "HTML, CSS, Vanilla JavaScript, Version Control with Github, jQuery, Boostrap 4",
-    "available": true,
+    "available": false,
     "url": "https://github.com/shanedwilson/shotz",
     "githubUrl": "https://github.com/shanedwilson"
   }
