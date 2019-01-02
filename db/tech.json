@@ -42,5 +42,9 @@
   "tech9" : {
     "name" : "React",
     "imgUrl" : "https://s3-us-west-2.amazonaws.com/wecp-static/www/prod/images/AssessmentForLearning/icon-reactjs.svg"
+  },
+  "tech10" : {
+    "name" : "NPM",
+    "imgUrl" : "https://authy.com/wp-content/uploads/npm-logo.png"
   }
 }
