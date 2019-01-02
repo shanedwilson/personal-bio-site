@@ -20,13 +20,8 @@ const createFooter = () => {
           </a>
         </li>
         <li class="list-inline-item">
-          <a href="https://www.instagram.com/shanedwilson/" target="_blank" class="text-secondary">
-            <i id="insta-icon" class="fab fa-instagram fa-lg"></i>
-          </a>
-        </li>
-        <li class="list-inline-item">
-          <a href="https://twitter.com/shanedwilson" target="_blank" class="text-secondary">
-            <i id="twitter-icon" class="fab fa-twitter fa-lg"></i>
+          <a href="https://www.facebook.com/sdwmixer" target="_blank" class="text-secondary">
+            <i id="facebook-icon" class="fab fa-facebook fa-lg"></i>
           </a>
         </li>
         <li class="list-inline-item mr-4">
