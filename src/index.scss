@@ -8,7 +8,7 @@ $color6: rgba(249, 236, 220, 1);
 $color7: rgba(253, 248, 243, 1);
 $twitterBlue: #38A1F3;
 $linkedInBlue: #0077B5;
-$instagrmMagenta: #c32aa3;
+$fbBlue: #3B5998;
 $gitGreen: 6cc644;
 
 body {
@@ -69,16 +69,12 @@ body {
       box-shadow: 1px 1px 5px;
 }
 
-#twitter-icon {
-  color: $twitterBlue;
-}
-
 #linked-icon{
   color: $linkedInBlue;
 }
 
-#insta-icon {
-  color: $instagrmMagenta;
+#facebook-icon {
+  color: $fbBlue;
 }
 
 #git-icon {
