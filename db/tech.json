@@ -46,5 +46,13 @@
   "tech10" : {
     "name" : "NPM",
     "imgUrl" : "https://authy.com/wp-content/uploads/npm-logo.png"
+  },
+  "tech11" : {
+    "name" : "C#",
+    "imgUrl" : "https://banner2.kisspng.com/20180328/dcw/kisspng-net-framework-c-net-core-software-framework-mon-studio-5abb543b9c9cc0.0743300915222262356415.jpg"
+  },
+  "tech12" : {
+    "name" : "Dapper",
+    "imgUrl" : "https://i1.wp.com/keyholesoftware.com/wp-content/uploads/Dapper-ORM.png?ssl=1"
   }
 }
