@@ -6,7 +6,7 @@ const createFooter = () => {
 <footer class="footer-div fixed-bottom bg-light">
     <div class="footer-container row justify-content-between">
 
-      <div class="footer-copyright ml-4 text-secondary">© 2018 Shane D Wilson</div>
+      <div class="footer-copyright ml-4 text-secondary">© 2019 Shane D Wilson</div>
 
       <ul class="list-unstyled list-inline">
         <li class="list-inline-item">

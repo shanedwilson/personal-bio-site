@@ -2,14 +2,24 @@
   "project1" : {
     "title": "Get Roasted!",
     "screenshot": "https://github.com/shanedwilson/get-roasted/raw/master/images/get-roasted-beans-view.png",
-    "description": "This app reprents my NSS front-end capstone. I roast coffee as a hobby and this app is a way to track one's beans, roasts and roast attempts.",
+    "description": "This app represents my NSS front-end capstone. I roast coffee as a hobby and this app is a way to track one's beans, roasts and roast attempts.",
     "technologiesUsed": "React, CRUD, Firebase",
     "available": true,
     "url": "https://get-roasted-228b6.firebaseapp.com",
     "githubUrl": "https://github.com/shanedwilson/get-roasted"
   },
 
-  "project2" : {
+    "project2" : {
+    "title": "Beacon and Loaves",
+    "screenshot": "https://github.com/ripalpate/BeaconAndLoaves/raw/master/BeaconAndLoaves/ClientApp/screenshots/beacon-and-loaves-auth.png",
+    "description":"This group project was where we tied everything we've learned together. C#/.Net backend with a React frontend. A short term rental concept for the lighthouse or nuclear silo enthusiast.",
+    "technologiesUsed": "React, C#/.Net, Sass, Dapper, Firebase",
+    "available": true,
+    "url": "https://github.com/ripalpate/BeaconAndLoaves",
+    "githubUrl": "https://github.com/ripalpate/BeaconAndLoaves"
+  },
+
+  "project3" : {
     "title": "Developer++",
     "screenshot": "https://github.com/shanedwilson/developer-plus-plus/raw/master/images/developer-plus-plus-main.png",
     "description": "This app is the first assignment given to us to complete in React. It includes a GitHub Calling Card and the ability to store and delete our developing resources. We also have the ability to mark the resources as completed. A stretch goal was to use Rechart to graph our GitHub commits and our completed resources. Much thanks to my friend and collegue, Marco Crank, for leading the way on finding the charting path.",
@@ -19,7 +29,7 @@
     "githubUrl": "https://github.com/shanedwilson/developer-plus-plus"
   },
 
-    "project3" : {
+    "project4" : {
     "title": "Nutshell-Chufus",
     "screenshot": "https://github.com/nss-evening-cohort-8/nutshell-chufas/raw/master/screenshots/nutshell.png",
     "description": "This represents the work of a group project for NSS. It was the culmination of everything we had learned just before we started React. I was responsible for the weather component.",
@@ -29,7 +39,7 @@
     "githubUrl": "https://github.com/nss-evening-cohort-8/nutshell-chufas"
   },
 
-  "project4" : {
+  "project5" : {
     "title": "Todo App",
     "screenshot": "https://github.com/shanedwilson/firebase-todo/raw/master/img/main.png",
     "description": "For this project we needed to create an app to display tasks needing to be done. The tasks should be editable. Completed tasks should move to the completed task div.",
@@ -39,7 +49,7 @@
     "githubUrl": "https://github.com/shanedwilson/firebase-todo"
   },
 
-  "project5" : {
+  "project6" : {
     "title": "Shotz!",
     "screenshot": "https://github.com/shanedwilson/shotz/raw/master/img/movie-view.png",
     "description": "For this project, we created a program to keep track of shooting locations for movies. A search element is provided to search for locations and buttons are provided to filter by shoot time. Click on the movie card to see all locations associated with that movie.",
